@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#col1{
+    height: 50%;
+    width: 80%;
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 100px;
+    border: 1px solid rgb(230, 225, 225);
+}
+#col2{
+    height: 15%;
+    width: 40%;
+    background-color:rgb(250, 247, 247);
+    margin-top: 10px;
+    margin-left: 300px;
+    border: 1px solid rgb(230, 225, 225);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#col1 img{
+    height: 40%;
+    margin-left: 450px;
+}
+#col3{
+    margin-left: 350px;
+    margin-top: 5px;
+}
+#RollNo{
+        padding: 10px;
+        font-size: 14px !important;
+        border-radius: 3px;
+        border: 1px solid #777;
+        width: 45%;
+}
+#col4{
+    height: 10%;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 350px;
+    border: 1px solid rgb(230, 225, 225);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: 1px solid #777;
+}
+#col4 a:hover{
+    color: black;
+}
+.btn{
+    height: 30px;
+   width: 300px;
+    margin-top: 10px;
+    margin-left: 350px;
+    border: 1px solid rgb(230, 225, 225);
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around; */
+    color: white;
+    border: 1px solid #777;
+}
+.btn a{
+    color:white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color:black;
+}
